@@ -1,0 +1,42 @@
+.Navbar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #456268;
+    padding: 0 10px;
+}
+.Navbar ul li{
+    list-style:none;
+    display: inline-block;
+}
+.search form{
+    display: flex;
+    margin:0 10px;
+}
+.input{
+  border: 0;
+  width: 0;
+  font-size: 12px;
+  background-color: #d0e8f2;
+  transition: width 0.4s ease-in-out;
+}
+.input.active{
+    width: 150px;
+}
+.input:focus{
+    outline: none;
+}
+.img{
+    cursor: pointer;
+}
+

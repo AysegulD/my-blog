@@ -1,0 +1,71 @@
+.sidebar{
+    width: 20%;
+}
+.sidebarHeader{
+    font-size: 15px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: #456268;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+.aboutImg{
+     width: 100%; 
+    padding:5px;  
+    box-sizing: border-box; 
+
+}
+.aboutImg img{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+   
+}   
+.aboutme{
+    font-size: 14px;
+    color:#456268;
+    font-weight: bold;
+    text-align: center;
+
+}
+.posts{
+    padding: 15px 0;
+}
+.recentPost{
+    border-bottom:1px solid #c2d1d6;
+    margin:10px;
+    
+}
+.recentPost h3{
+    font-size:14px;
+    color:#79a3b1;
+    margin-bottom: 5px;
+     
+}
+.recentPost span{   
+    font-size: 13px;
+    color:#0d3542;
+    font-style:italic;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

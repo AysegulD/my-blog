@@ -1,0 +1,11 @@
+.Logo{
+    text-align: center;
+}
+.Logo a{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color:#79a3b1 ;
+    text-decoration: none;
+    
+}

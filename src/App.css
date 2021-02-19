@@ -1,0 +1,9 @@
+body{
+    background-color:#fcf8ec;
+    font-family: 'Merriweather', serif;
+}
+.App{
+    width:95%;
+    margin: 0 auto;
+    border: 1px solid;
+}

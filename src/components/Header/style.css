@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    margin:10px 0;
+}
+.navbar a{
+    display: inline-block;
+    margin:0px 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#456268;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:#9adbf7;
+}
