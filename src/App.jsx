@@ -10,9 +10,6 @@ import Post from "./containers/Post";
 
 
 
-
-
-
 function App(){
     return (
         <Router>

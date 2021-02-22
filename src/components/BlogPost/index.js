@@ -3,8 +3,7 @@ import React,{useState,useEffect} from 'react';
 import Card from '../UI/Card';
 import "./style.css";
 import blogPost from "../../data/blog.json";
-import {Link} from "react-router-dom";
-import picture from "../../blogpostImg/bg pic.jpg"
+
 
 
 /**
@@ -48,7 +47,7 @@ const BlogPost = (props) => {
         <span className="postBy">posted on{post.postedOn} by {post.author}</span>
         </div>
             <div className="blogPostimg">
-            <img src={picture} alt="post image"/>  
+            <img src={require("../../blogpostImg/fashion.jpg")} alt="post image"/>  
             </div>
         <div className="firstPost">
             <h3>{post.blogTitle}</h3>
