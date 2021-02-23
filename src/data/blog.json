@@ -6,7 +6,7 @@
         "blogTitle":"Fashion is Awesome",
         "postedOn":"February 15,2021",
         "author":"Aysegul Demir",
-        "blogImage": "../../blogpostImg/bg pic.jpg",
+        "blogImage": "bg pic.jpg",
         "blogText":"The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum." 
         
     },
@@ -16,7 +16,7 @@
         "blogTitle":"Vogue",
         "postedOn":"February 16,2021",
         "author":"Aysegul Demir",
-        "blogImage":"../../blogpostImg/fashion.jpg",
+        "blogImage":"fashion.jpg",
         "blogText":"So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book,It's difficult to find examples of lorem ipsum in use before Letraset made it popular as a dummy text in the 1960s, although McClintock says he remembers coming across the lorem ipsum passage in a book of old metal type samples."
     
                 },
