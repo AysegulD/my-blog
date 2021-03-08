@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css";
+import SocialNetwork from '../SocialNetwork';
 
 /**
 * @author
@@ -14,9 +15,7 @@ const Header = (props) => {
             <a href="#">About</a>
             <a href="#">Contact</a>
         </nav>
-        <div>
-            Social Media Links
-        </div>
+        <SocialNetwork />
     </header>
    )
 

@@ -1,0 +1,25 @@
+.gallaryPost{
+    display: flex;
+    justify-content: space-between;
+   
+}
+ 
+ .sideImageWrapper div{
+    width: 100%;
+    
+}
+.sideImageWrapper img{
+    max-width: 100%;
+    object-fit: cover;
+   
+} 
+
+.mainImage{
+    width: 100%;
+    height: 450px;
+}
+.mainImage img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}

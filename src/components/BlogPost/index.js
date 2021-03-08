@@ -5,10 +5,6 @@ import "./style.css";
 import blogPost from "../../data/blog.json";
 
 
-
-
-
-
 /**
 * @author
 * @function BlogPost
@@ -25,17 +21,17 @@ const BlogPost = (props) => {
         blogText:""
     });
 
-    const [postId,setPostId]=useState("");
+    const [slug,setSlug]=useState("");
     useEffect(() =>{    
 
-        const postId=props.match.params.postId;
+        const slug=props.match.params.slug;
         
-        const post= blogPost.data.find(post =>post.id == postId);
+        const post= blogPost.data.find(post =>post.slug == slug);
         setPost(post);
         
-        setPostId(postId);
+        setSlug(slug);
         
-    },[post,props.match.params.postId]);
+    },[post,props.match.params.slug]);
 
     if(post.blogImage =="") return null;
 

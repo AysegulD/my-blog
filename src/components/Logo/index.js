@@ -1,4 +1,5 @@
 import React from 'react';
+
 import "./style.css";
 
 /**
@@ -8,8 +9,15 @@ import "./style.css";
 
 const Logo = (props) => {
   return(
-    <div className="Logo">
-    <a href="#">Aysegul Demir</a></div>
+  
+     
+      <div className="Logo">
+    <a href="/">Aysegul Demir</a>
+    </div>
+    
+    
+    
+  
    )
 
  }

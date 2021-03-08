@@ -5,13 +5,20 @@
     font-size: 15px;
     padding: 10px 0;
     box-sizing: border-box;
-    color: #456268;
+    color: #64a4b1;
     letter-spacing: 1px;
     text-align: center;
     
 }
+.about a{
+    color:#030d0f;
+    cursor: pointer;
+}
+.about a:hover{
+    color:#456268;
+}
 .aboutImg{
-     width: 100%; 
+    width: 100%; 
     padding:5px;  
     box-sizing: border-box; 
 

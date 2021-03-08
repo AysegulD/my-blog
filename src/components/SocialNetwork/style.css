@@ -1,0 +1,18 @@
+.iconF{
+    transition: transform 250ms;
+    
+    
+}
+.iconF{
+    margin: 0 0.5rem  ;
+}
+
+.iconF:hover{
+ transform: translateY(-2px);
+ opacity: 0.7;
+      
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogPost from '../../components/BlogPost';
+import Layout from '../../components/Layout';
 import Sidebar from '../../components/Sidebar';
 import Card from '../../components/UI/Card';
 import "./style.css";
@@ -13,10 +14,13 @@ import "./style.css";
 const Post = (props) => {
   
   return(
-    <section className="sectionPost">
-        <BlogPost {...props} />
-        <Sidebar />
-    </section>
+   
+    <Layout>
+    <BlogPost {...props} />
+    </Layout>
+        
+        
+   
    )
 
  }
