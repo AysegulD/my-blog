@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./style.css";
-
+import Button from "react-bootstrap/Button";
 
 /**
 * @author
@@ -18,7 +18,7 @@ const Footer = (props) => {
           <h3>Footer Content</h3>
           <ul>
             <li>
-            Button
+            <Button variant="primary">Primary</Button>{' '}
             </li>
           </ul>
         </div>

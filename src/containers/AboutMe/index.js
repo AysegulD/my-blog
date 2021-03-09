@@ -2,9 +2,10 @@
 import React from 'react';
 import "./style.css";
 import aysegul3 from "../../Images/personalImages/aysegul3.JPG";
-import Card from '../../components/UI/Card';
+import Carded from '../../components/UI/Carded';
 import hobbies from "../../Images/personalImages/hobbies.JPG";
 import Footer from '../../components/Footer';
+
 
 /**
 * @author
@@ -13,7 +14,7 @@ import Footer from '../../components/Footer';
 const AboutMe = (props) => {
   return(
     <div className="aboutContainer">
-          <Card>
+          <Carded>
          <div className="AboutImg"> 
           <img src={aysegul3}   alt="Aysegul img" />
           </div> 
@@ -30,7 +31,7 @@ const AboutMe = (props) => {
           <div className="hobbiesImg">
           <img src={hobbies} alt="hobbies"/>
           </div>
-          </Card>
+          </Carded>
           <div><Footer /></div>
        </div> 
        

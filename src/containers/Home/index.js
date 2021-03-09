@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import Card from "../../components/UI/Card";
+import Carded from "../../components/UI/Carded";
 import RecentPost from "./RecentPost";
 import blogData from "../../data/blog.json";
-import Layout from "../../components/Layout";
+import LayoutComponent from "../../components/LayoutComponent";
 
 const Home = props=>{
    
@@ -17,7 +17,7 @@ const imgArry=blogData.data.map(post =>post.blogImage)
 
     return (
         <div>
-            <Card>
+            <Carded>
              <div className="gallaryPost" style={gallaryStyle} >
                 <section style={{width:"70%"}}>
                 <div className="mainImage">
@@ -36,10 +36,10 @@ const imgArry=blogData.data.map(post =>post.blogImage)
                 </div>                  
                 </section>
                 </div>
-                </Card>
-                    <Layout>
+                </Carded>
+                    <LayoutComponent>
                      <RecentPost />
-                     </Layout>                       
+                     </LayoutComponent>                       
         </div>
         
     )

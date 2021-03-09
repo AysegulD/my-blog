@@ -1,8 +1,6 @@
 import React from 'react';
 import BlogPost from '../../components/BlogPost';
-import Layout from '../../components/Layout';
-import Sidebar from '../../components/Sidebar';
-import Card from '../../components/UI/Card';
+import LayoutComponent from '../../components/LayoutComponent';
 import "./style.css";
 
 
@@ -15,9 +13,9 @@ const Post = (props) => {
   
   return(
    
-    <Layout>
+    <LayoutComponent>
     <BlogPost {...props} />
-    </Layout>
+    </LayoutComponent>
         
         
    

@@ -1,6 +1,6 @@
 
 import React,{useState,useEffect} from 'react';
-import Card from '../UI/Card';
+import Carded from '../UI/Carded';
 import "./style.css";
 import blogPost from "../../data/blog.json";
 
@@ -39,7 +39,7 @@ const BlogPost = (props) => {
   return(
       
       <div className="blogPost">
-        <Card>  
+        <Carded>  
         <div className="postHeader">
         <span className="postFeatured">Featured</span>
         <h1 className="postTitle">{post.blogTitle}</h1>
@@ -53,7 +53,7 @@ const BlogPost = (props) => {
             <h3>{post.blogTitle}</h3>
             <p>{post.blogText}</p>
         </div>
-    </Card>
+    </Carded>
     </div>
    
     

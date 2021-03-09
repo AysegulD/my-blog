@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import {Link} from "react-router-dom";
-import Card from '../UI/Card';
+import Carded from '../UI/Carded';
 import "./style.css";
 import aysegul3 from "../../Images/personalImages/aysegul3.JPG";
 import blogPost from "../../data/blog.json";
@@ -10,8 +10,6 @@ import SocialNetwork from "../SocialNetwork";
 * @author
 * @function Sidebar
 **/
-
-
 const Sidebar = (props) => {
   const [posts,setPosts]=useState([])
   useEffect(() =>{
@@ -21,8 +19,8 @@ const Sidebar = (props) => {
        },[posts]);
 
   return(
-    <div className="sidebar" style={{width:props.width}}>
-      <Card style={{marginBottom:"20px",padding:"20px",boxSizing:"border-box"}}>
+    <div className="sidebar" >
+      <Carded style={{marginBottom:"20px",padding:"20px",boxSizing:"border-box"}}>
         <div className="sidebarHeader">
           <span>About</span>
           </div>
@@ -33,16 +31,16 @@ const Sidebar = (props) => {
             <p className="aboutme">My name is Aysegul Demir and I am a junior front-end developer <a href="/about">...</a></p>
             
           </div>
-          </Card>
-          <Card style={{marginBottom:"20px",boxSizing:"border-box"}}>
+          </Carded>
+          <Carded style={{marginBottom:"20px",boxSizing:"border-box"}}>
           <div className="sidebarHeader">
             <span>
            <SocialNetwork />
             </span>
           </div>
           
-          </Card>
-          <Card style={{marginBottom:"20px",boxSizing:"border-box"}}>
+          </Carded>
+          <Carded style={{marginBottom:"20px",boxSizing:"border-box"}}>
           <div className="sidebarHeader">
             <span>Recent Posts</span>
           </div>
@@ -60,10 +58,9 @@ const Sidebar = (props) => {
                 )
               })
             }
-                
-            
+              
           </div>
-          </Card>
+          </Carded>
     </div>
     
    )
