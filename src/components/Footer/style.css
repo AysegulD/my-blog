@@ -1,3 +1,15 @@
+.footerP{
+    text-align: center;
+    color: white;
+}
+.FooterContainer{
+    padding: 50px;
+    background-color: #3664b9;
+}
+.year{
+    background-color: #3b189b;
+    padding: 10px;
+}
 
 
 
