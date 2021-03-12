@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./style.css";
-import Button from "react-bootstrap/Button";
+import email from "../../Images/Icons/email.svg";
 import SocialNetwork from "../SocialNetwork";
 
 /**
@@ -13,48 +13,47 @@ import SocialNetwork from "../SocialNetwork";
 const Footer = (props) => {
  
   const year=new Date().getFullYear()
-  return(
-    <footer className="footer">
-    <div className="FooterContainer">
-      <div className="row"  >
-        <div className="col-md-6" >
+  return( 
+<footer >
+    <div class="footerContainer">
+  <div class="row">
+    <div class="col-md">
+    <div>
           <ul>
-            <Button variant="primary">Get In Touch</Button>{' '} 
+            <a class="btn btn-primary" href="/contact" role="button">Get In Touch</a>
           </ul>
-        </div>
-        <div className="col" md="3">
+         </div>
+    </div>
+    <div class="col-md">
+    <div>
           <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Post</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-          <div className="col" md="3">
-            <ul>
-            <li>
-              <a href="#">On Instagram</a>
-            </li>
-            <li>
-              <a href="#">On Facebook</a>
-            </li>
-            <li>
-              <a href="#">AYDEMGUL@HOTMAIL.COM</a>
-            </li>
-            </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-   
-   
+             <li>
+              <a href="/">Home</a>
+           </li>
+           <li>
+             <a href="/about">About</a>
+             </li>
+             <li>
+               <a href="/post">Post</a>
+             </li>
+             <li>
+               <a href="/contact">Contact</a>
+             </li>
+           </ul>
+           </div>
+    </div>
+    <div class="col-md">
+      <div className="socialIcons">
+             <ul >
+             <h3>Follow Me</h3>
+             <SocialNetwork />
+            <img src={email} alt="email"/>
+             <a  href="mailto:aydemgul@hotmail.com">AYDEMGUL@HOTMAIL.COM</a>
+             </ul>
+           </div>
+    </div>
+  </div>
+</div>
     <div className="year">
      <p className="footerP"> Copyright ⓒ {year} AD </p>
     </div>

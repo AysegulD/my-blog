@@ -4,6 +4,7 @@ import Carded from "../../components/UI/Carded";
 import RecentPost from "./RecentPost";
 import blogData from "../../data/blog.json";
 import LayoutComponent from "../../components/LayoutComponent";
+import Footer from "../../components/Footer";
 
 const Home = props=>{
    
@@ -39,7 +40,8 @@ const imgArry=blogData.data.map(post =>post.blogImage)
                 </Carded>
                     <LayoutComponent>
                      <RecentPost />
-                     </LayoutComponent>                       
+                     </LayoutComponent>   
+                     <Footer />                    
         </div>
         
     )

@@ -1,17 +1,42 @@
+footer{
+    color:#fff;
+    
+}
+footer a{
+    color: #fff;
+    font-size: 14px;   
+}
+.footerContainer{
+    background-color: rgb(36, 68, 172);
+    padding: 40px;    
+}
+
+footer li{
+    list-style-type: none;
+    margin: 10px;
+}
+footer a:hover{
+    color:rgb(89, 187, 233);
+    text-decoration: none;
+}
+
 .footerP{
     text-align: center;
-    color: white;
+    color:#fff;
 }
-.FooterContainer{
-    padding: 50px;
-    background-color: #3664b9;
-}
+
 .year{
     background-color: #3b189b;
     padding: 10px;
 }
 
-
-
-
-
+.socialIcons img{
+    width:25px;
+    margin: 10px;
+}
+.socialIcons h3{
+    font-size: 18px;
+    color:#fff;
+    margin: 10px;
+    letter-spacing: 1px;
+}
