@@ -15,16 +15,16 @@ const Footer = (props) => {
   const year=new Date().getFullYear()
   return( 
 <footer >
-    <div class="footerContainer">
-  <div class="row">
-    <div class="col-md">
+    <div className="footerContainer">
+  <div className="row">
+    <div className="col-md">
     <div>
           <ul>
-            <a class="btn btn-primary" href="/contact" role="button">Get In Touch</a>
+            <a className="btn btn-primary" href="/contact" role="button">Get In Touch</a>
           </ul>
          </div>
     </div>
-    <div class="col-md">
+    <div className="col-md">
     <div>
           <ul>
              <li>
@@ -42,7 +42,7 @@ const Footer = (props) => {
            </ul>
            </div>
     </div>
-    <div class="col-md">
+    <div className="col-md">
       <div className="socialIcons">
              <ul >
              <h3>Follow Me</h3>

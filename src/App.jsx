@@ -1,7 +1,7 @@
 
 import React from "react";
 import "./App.css";
-import Blog from "./components/Blog";
+import BlogNavigate from "./components/BlogNavigate";
 import Header from "./components/Header";
 import Home from "./containers/Home";
 import {BrowserRouter as Router,Route} from "react-router-dom";
@@ -16,11 +16,11 @@ function App(){
         <Router>
         <div className="App">
         <Header />
-        <Blog />
+        <BlogNavigate />
         <Route exact path="/" component={Home} />
         <Route path="/about"   component={AboutMe} />
         <Route path="/contact" component={Contact} />
-        <Route path="/post/:slug" component={Post} />
+        <Route path="/post/:postId" component={Post} />
         </div>
      
         </Router>

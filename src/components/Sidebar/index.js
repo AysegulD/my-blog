@@ -49,7 +49,7 @@ const Sidebar = (props) => {
               posts.map(post=>{
                 
                 return (
-              <Link to={"/post/" + post.slug} key={post.id}>
+              <Link to={"/post/" + post.id} key={post.id}>
                <div className="recentPost">             
               <h3>{post.blogTitle} </h3>
               <span>{post.postedOn}</span>

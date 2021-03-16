@@ -21,21 +21,18 @@ const BlogPost = (props) => {
         blogText:""
     });
 
-    const [slug,setSlug]=useState("");
+    const [postId,setPostId]=useState("");
     useEffect(() =>{    
 
-        const slug=props.match.params.slug;
-        
-        const post= blogPost.data.find(post =>post.slug == slug);
+    const postId=props.match.params.postId;
+    const post= blogPost.data.find(post =>post.id == postId);
         setPost(post);
-        
-        setSlug(slug);
-        
-    },[post,props.match.params.slug]);
+        setPostId(postId)
+        },[post,props.match.params.postId]);
 
     if(post.blogImage =="") return null;
 
-    
+        
   return(
       
       <div className="blogPost">

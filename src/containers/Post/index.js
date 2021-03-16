@@ -1,7 +1,9 @@
 import React from 'react';
 import BlogPost from '../../components/BlogPost';
 import LayoutComponent from '../../components/LayoutComponent';
+import Sidebar from '../../components/Sidebar';
 import "./style.css";
+
 
 
 /**
@@ -12,10 +14,15 @@ import "./style.css";
 const Post = (props) => {
   
   return(
-   
+
+  <div>
     <LayoutComponent>
+   
     <BlogPost {...props} />
     </LayoutComponent>
+   </div>
+   
+    
         
         
    

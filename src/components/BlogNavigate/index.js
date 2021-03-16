@@ -4,6 +4,7 @@ import Navbar from '../Navbar';
 import Carded from '../UI/Carded';
 import "./style.css";
 
+
 /**
 * @author
 * @function Blog
@@ -15,12 +16,8 @@ const Blog = (props) => {
       <Carded>
       <div >
       <Logo />
-      
-      <Navbar />
-      
-    
-      </div>
-       
+      <Navbar />  
+      </div>     
       </Carded>
     </div>
    )
