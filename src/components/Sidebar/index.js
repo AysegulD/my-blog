@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import Carded from '../UI/Carded';
 import "./style.css";
 import aysegul3 from "../../Images/personalImages/aysegul3.JPG";
-import blogPost from "../../data/blog.json";
 import SocialNetwork from "../SocialNetwork";
 
 /**
@@ -13,11 +12,13 @@ import SocialNetwork from "../SocialNetwork";
 const Sidebar = (props) => {
   const [posts,setPosts]=useState([])
   useEffect(() =>{
-
-      const posts= blogPost.data;
-      setPosts(posts);
-       },[posts]);
-
+    fetch("http://localhost:3001/posts/")
+    .then((res) => res.json())
+    .then((postRecent) =>{
+      setPosts(postRecent)  
+    });
+  },[]);
+    
   return(
     <div className="sidebar" >
       <Carded style={{marginBottom:"20px",padding:"20px",boxSizing:"border-box"}}>
@@ -49,10 +50,10 @@ const Sidebar = (props) => {
               posts.map(post=>{
                 
                 return (
-              <Link to={"/post/" + post.id} key={post.id}>
+              <Link to={"/post/" + post._id} >
                <div className="recentPost">             
-              <h3>{post.blogTitle} </h3>
-              <span>{post.postedOn}</span>
+              <h3>{post.title} </h3>
+              
                 </div> 
              </Link>
                 )

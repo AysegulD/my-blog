@@ -7,18 +7,18 @@ import SocialNetwork from '../SocialNetwork';
 * @function Header
 **/
 
-const Header = (props) => {
-  return(
-    <header className="header">
-        <nav className="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-        <SocialNetwork />
-    </header>
-   )
+  const Header = (props) => {
+    return(
+      <header className="header">
+          <nav className="navbar">
+              <a href="/">Home</a>
+              <a href="/about">About</a>
+              <a href="/contact">Contact</a>
+          </nav>
+          <SocialNetwork />
+      </header>
+    )
 
- }
+  }
 
 export default Header;

@@ -9,14 +9,14 @@ import "./style.css";
 * @function Layout
 **/
 
-const Layout = (props) => {
-  return(
-    <div className="LayoutContainer">
-    {props.children}
-        <Sidebar />
-    </div>
-   )
+  const Layout = (props) => {
+    return(
+      <div className="LayoutContainer">
+      {props.children}
+          <Sidebar />
+      </div>
+    )
 
- }
+  }
 
 export default Layout

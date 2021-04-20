@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialNetwork from "../SocialNetwork";
 
 import "./style.css";
 
@@ -12,7 +13,9 @@ const Logo = (props) => {
   
      
       <div className="Logo">
-    <a href="/">Aysegul Demir</a>
+    <a href="/">Aysegul Demir </a>
+  
+    
     </div>
     
     
