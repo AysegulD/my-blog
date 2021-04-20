@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react';
 import Footer from '../Footer';
 import Carded from '../UI/Carded';
+import "./style.css";
 
 
 
@@ -28,15 +29,14 @@ const Posts = (props) => {
         
       },[]);   
   return(
-    <div>   
+    <div className="postsComponent">   
     <Carded>    
-    <div>                    
+    <div className="posts">                    
       {posts.map((post,i) => 
-      <div key={i}>
+      <div className="postsContainer"key={i}>
       <h1>{post.title}</h1>
       <p>{post.content.substring(0,100)}<a href={"/post/" + post._id} >...Read More </a></p>
       </div>
-      
       )}
       </div> 
       </Carded> 

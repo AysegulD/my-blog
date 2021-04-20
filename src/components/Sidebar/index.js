@@ -47,14 +47,12 @@ const Sidebar = (props) => {
           </div>
           <div className="posts" >
             {
-              posts.map(post=>{
-                
-                return (
+              posts.map((post,i)=>{
+               return (
               <Link to={"/post/" + post._id} >
-               <div className="recentPost">             
+               <div key={i} className="recentPost">             
               <h3>{post.title} </h3>
-              
-                </div> 
+              </div> 
              </Link>
                 )
               })

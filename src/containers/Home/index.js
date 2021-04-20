@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 
 const Home = props=>{
    
-const gallaryHeight=450;
+const gallaryHeight=380;
 const gallaryStyle={
 height:gallaryHeight+"px",
 overflow:"hidden"
@@ -25,15 +25,15 @@ return (
     <img src={"/blogpostImg/" + imgArry[0]}  alt="fashionpic" />
 </div>
 </section>
-    <section className="sideImageWrapper" style={{width:"30%"}}>
-    <div style={{height:sideImageHeight}}>
-    <img src={"/blogpostImg/" + imgArry[1]}  alt="fashionpic" />
+<section className="sideImageWrapper" style={{width:"30%"}}>
+<div style={{height:sideImageHeight}}>
+<img src={"/blogpostImg/" + imgArry[1]}  alt="pic" />
 </div>
 <div style={{height:sideImageHeight}}>
-<img src={"/blogpostImg/" + imgArry[0]}  alt="fashionpic" />
+<img src={"/blogpostImg/" + imgArry[0]}  alt="pic2" />
 </div>
 <div style={{height:sideImageHeight}}>
-<img src={"/blogpostImg/" + imgArry[2]}  alt="fashionpic" />
+<img src={"/blogpostImg/" + imgArry[2]}  alt="pic3" />
 </div>                  
 </section>
 </div>
