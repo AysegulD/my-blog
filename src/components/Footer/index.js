@@ -34,7 +34,7 @@ const Footer = (props) => {
              <a href="/about">About</a>
              </li>
              <li>
-               <a href="/post">Post</a>
+               <a href="/posts">Posts</a>
              </li>
              <li>
                <a href="/contact">Contact</a>

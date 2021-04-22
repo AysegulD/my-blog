@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 
 const Home = props=>{
    
-const gallaryHeight=450;
+const gallaryHeight=380;
 const gallaryStyle={
     height:gallaryHeight+"px",
     overflow:"hidden"

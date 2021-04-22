@@ -16,22 +16,22 @@ const Contact = (props) => {
     <h4 className="formHeader">Get in touch</h4>
       <div className="contactInform">
       <img src={user} alt="user"/>
-        <label for="name">Your Name</label>
+        <label htmlFor="name">Your Name</label>
         <input type="text"  className="inputName" id="yourName" placeholder="Enter Your Name"/>
         </div>
         <div className="contactInform">
         <img src={emailtag} alt="user"/>
-        <label for="email">Your Email</label>
+        <label htmlFor="email">Your Email</label>
         <input type="email" className="inputEmail" id="yourEmail" placeholder="Enter Your Email Address" />
         </div>
         <div className="contactInform">
         <img src={tag} alt="user"/>
-        <label  for="subject">Subject</label>
+        <label  htmlFor="subject">Subject</label>
         <input type="text" className="inputSubject" id="subject"/>
         </div>
         <div className="userMessage">
         <img src={pencil} alt="user"/>
-        <label for="Your Message">Your Message</label>
+        <label htmlFor="Your Message">Your Message</label>
         <textarea type="text" />
         </div>
       <div>

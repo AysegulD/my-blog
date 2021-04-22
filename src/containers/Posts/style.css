@@ -1,0 +1,15 @@
+.postsContainer{
+    border-bottom:1px solid #879ea5;
+    margin:10px;
+    
+}
+.postsContainer h3{
+    font-size:16px;
+    font-weight: 500;
+    color:#2b4852;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+.postsContainer span{
+    font-size: 14px;
+}
