@@ -28,7 +28,7 @@ const Sidebar = (props) => {
             <img src={aysegul3} alt="About img" />
           </div>
           <div className="about">
-            <p className="aboutme">My name is Aysegul Demir and I am a junior front-end developer <a href="/about">...</a></p>
+            <p className="aboutme">My name is Aysegul Demir and I am a junior front-end developer <Link to="/about">...</Link></p>
             
           </div>
           </Carded>

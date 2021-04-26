@@ -1,5 +1,6 @@
 
 import React from 'react';
+import {Link} from "react-router-dom";
 import "./style.css";
 import email from "../../Images/Icons/email.svg";
 import SocialNetwork from "../SocialNetwork";
@@ -20,26 +21,26 @@ const Footer = (props) => {
     <div className="col-md">
     <div>
           <ul>
-            <a className="btn btn-primary" href="/contact" role="button">Get In Touch</a>
+            <Link to="/contact" className="btn btn-primary" role="button">Get In Touch</Link>
           </ul>
          </div>
     </div>
     <div className="col-md">
     <div>
           <ul>
-             <li>
-              <a href="/">Home</a>
+          <li>
+              <Link to="/my-blog">Home</Link>
            </li>
            <li>
-             <a href="/about">About</a>
+           <Link to="/about">About</Link>
              </li>
              <li>
-               <a href="/posts">Posts</a>
+             <Link to="/posts">Posts</Link>
              </li>
              <li>
-               <a href="/contact">Contact</a>
+             <Link to="/contact">Contact</Link>
              </li>
-           </ul>
+            </ul>
            </div>
     </div>
     <div className="col-md">

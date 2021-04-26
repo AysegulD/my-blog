@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import "./style.css";
 import SocialNetwork from '../SocialNetwork';
 
@@ -11,9 +12,8 @@ const Header = (props) => {
   return(
     <header className="header">
         <nav className="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <Link to="/my-blog">Home</Link>
+            <Link to="/contact">Contact</Link>
         </nav>
         <SocialNetwork />
     </header>

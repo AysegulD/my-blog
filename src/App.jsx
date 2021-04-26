@@ -18,11 +18,16 @@ function App(){
         <div className="App">
         <Header />
         <BlogNavigate />
-        <Route exact path="/" component={Home} />
+        
         <Route path="/about"   component={AboutMe} />
         <Route path="/contact" component={Contact} />
         <Route path="/post/:postId" component={PostsName} />
         <Route path="/posts" component={Posts} />
+        <Route  exact path="/" component={Home} />
+        <Route   path="/my-blog" component={Home} />
+
+
+       
         </div>
      
         </Router>

@@ -12,7 +12,7 @@ const Logo = (props) => {
   
      
       <div className="Logo">
-    <a href="/">Aysegul Demir</a>
+    <a href="/my-blog">Aysegul Demir</a>
     </div>
     
     

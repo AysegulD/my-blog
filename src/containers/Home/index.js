@@ -22,18 +22,18 @@ const imgArry=blogData.data.map(post =>post.blogImage)
              <div className="gallaryPost" style={gallaryStyle} >
                 <section style={{width:"70%"}}>
                 <div className="mainImage">
-                    <img src={"/blogpostImg/" + imgArry[0]}  alt="fashionpic" />
+                    <img src={"http://ayseguld.github.io/my-blog/blogpostImg/" + imgArry[0]}  alt="fashionpic" />
                 </div>
                 </section>
                  <section className="sideImageWrapper" style={{width:"30%"}}>
                  <div style={{height:sideImageHeight}}>
-                 <img src={"/blogpostImg/" + imgArry[1]}  alt="fashionpic" />
+                 <img src={"http://ayseguld.github.io/my-blog/blogpostImg/" + imgArry[1]}  alt="fashionpic" />
                 </div>
                 <div style={{height:sideImageHeight}}>
-                <img src={"/blogpostImg/" + imgArry[0]}  alt="fashionpic" />
+                <img src={"http://ayseguld.github.io/my-blog/blogpostImg/" + imgArry[0]}  alt="fashionpic" />
                 </div>
                 <div style={{height:sideImageHeight}}>
-                <img src={"/blogpostImg/" + imgArry[2]}  alt="fashionpic" />
+                <img src={"http://ayseguld.github.io/my-blog/blogpostImg/" + imgArry[2]}  alt="fashionpic" />
                 </div>                  
                 </section>
                 </div>

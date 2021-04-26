@@ -44,7 +44,7 @@ const BlogPost = (props) => {
         </div>
             <div className="blogPostimg">
            
-            <img src={"/blogpostImg/" + post.blogImage} alt="post image"/>  
+            <img src={"http://ayseguld.github.io/my-blog/blogpostImg/" + post.blogImage } alt="post image"/>  
             </div>
         <div className="firstPost">
             <h3>{post.blogTitle}</h3>
